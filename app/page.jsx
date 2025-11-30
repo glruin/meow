@@ -9,6 +9,21 @@ className="mt-8 px-6 py-3 bg-blue-600 text-white rounded-lg"
 >
 Ir al login
 </a>
-</div>
-);
+export default function Home() {
+  return (
+    <div
+      style={{
+        backgroundImage: "url('/fondo.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        width: "100vw",
+        height: "100vh",
+      }}
+    >
+      <h1 style={{ color: "white", padding: "20px" }}>
+        Probando fondo...
+      </h1>
+    </div>
+  );
 }
