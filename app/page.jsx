@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div
       style={{
-        backgroundImage: "url('/fondo.jpg')",
+        backgroundImage: "url('/fondo.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
